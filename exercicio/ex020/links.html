@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color: red;
+            font-weight: bold;
+
+        }
+        .verde:hover{
+                color: green;
+        }
+        .laranja:hover{
+                color: orange;
+
+        }
+        .amarelo:hover{
+                color: yellow;
+
+        }
+        .especial > iframe{
+            display: none;
+        }
+        .especial:hover > iframe{
+            color: green;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <p><a href="https://www.youtube.com/watch?v=AHdd65cuAIE&list=PL3auLSY6zj0LtPwKe2jS0YJXpdcW-t_Fw" class="verde">My</a></p>
+    <p><a href="https://www.youtube.com/watch?v=2XyK9-AmJ5U&list=PL3auLSY6zj0LtPwKe2jS0YJXpdcW-t_Fw&index=2" class="amarelo">Summer</a></p>
+    <p><a href="https://www.youtube.com/watch?v=Fj5vTrjwkIE&list=PL3auLSY6zj0LtPwKe2jS0YJXpdcW-t_Fw&index=3" class="laranja">Car</a></p>
+    <h2 class="especial"><iframe width="450px" height="300px" src="https://www.youtube.com/embed/Sh2tFmHJFGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>My Summer car</h2>
+</body>
+</html>

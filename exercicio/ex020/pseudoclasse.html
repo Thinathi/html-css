@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holder</title>
+    <style>
+        .principal{
+            background-color: blue;
+            color: white;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .esconder:hover{
+            color: red;
+        }
+        .esconder > p{
+            display: none;
+        }
+        .esconder:hover > p{
+            display: block;
+        }
+        .d1:hover{
+            background-color: rgb(138, 138, 138);
+            width: 200px;
+            height: 200px;
+            
+        }
+        .d2:hover{
+            background-color: rgb(138, 138, 138);
+            width: 200px;
+            height: 200px;
+        }
+        .d3:hover{
+            background-color: rgb(138, 138, 138);
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h1 class="principal">hover</h1>
+            <p> A tag hover é usada para quando vc passar o mause sobre a tag div acontecer um evento</p>
+            <h1>></h1>
+            <p>o sinal ">" é usado para falar q essa tag esta dentro dessa </p>
+            <h2>EX:</h2>
+            <div class="esconder">
+        Aqui a um texto escondido
+        <p>TEXTO ESCONDIDO...</p>
+        <h2>bla</h2>
+        <div class="d1">01</div>
+        <div class="d2">02</div>
+        <div class="d3">03</div>
+    </div>
+    </main>
+</html>

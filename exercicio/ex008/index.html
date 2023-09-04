@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>principais formatações</h1>
+    <h2>negrito / destaque</h2>
+    <p>nessa frase temos um <b>termo em negrito</b> com a tag b (nao semantica)</p>
+    <p>Ou na forma semantica usamos a tag <strong>Strong</strong></p>
+    <p>no italico não semantico usamos a tag <i>I</i></p>
+    <p>só q na forma semantica usamos a <em>EM</em></p>
+    <p>visualmente nada muda porém, no sentido a forma semantica e muito mais facil de se entender!!</p>
+    <img src="Captura de tela 2023-06-15 094317.png" alt="">
+    <p>como na imagem acima a tag em e a tag strong e muito mais facil de entender <br><strong>EM significa emfase strong destaque entende?</strong></p>
+
+    <h1>Professor</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando document.getElementById('teste') é escrito em linguagem JavaScript</p>
+    <p>
+        <code>
+            <pre>
+                num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        
+            </pre>
+        </code>
+    <h1>Citações simples</h1>
+    <p>Como diria o pai de um amigo: <q>computador é um burro muito rápido</q>
+    <h1>Citações completas</h1>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos: <blockquote>A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</blockquote></p>
+    <h1>Abreviações</h1>
+    <p>Estou estudando <abbr title="Hyper Text Mark Up">HTML</abbr> e <abbr title="BATATA">CSS</abbr>. Estou adorando!
+    <h1>Texto invertido</h1>
+    <p><bdo dir="rtl">eu sou o thiago mas pode me chamar de Thiago</bdo><strong> esse comando e inutil mas e para testar</strong></p>
+    <h1>negrito destaque</h1>
+    <p>nesta frase temos um <b>termo em negrito </b>usando a tag B(não semantica)<br>
+    nesta frase temos um <strong>termo em negrito</strong> usando a tag STRONG(semantica) 
+    </p>
+    <h1>italico</h1>
+    <p>nesta frase, temos um <i>termo em italico</i> usando a tag I (nao semantico)<br> aqui estamos usando o <em>termo em enfase</em> usando a tag EM (semantica)</p>
+    <h1>Texto marcado</h1>
+    Podemos criar também um <mark style="background-color: mediumturquoise;" >texto marcado</mark> usando a tag MARK.
+    podemos mudar ele de cor com a tag
+    <code>
+        <pre>
+    mark style bakground-color: a cor; /mark 
+        </pre>
+    </code>
+    <p>ou se vc quiser mudar a cor de todos os textos marcados voce ira no head</p>
+    <code>
+        <pre>
+            head 
+                style
+                    mark{
+                        background-color:a cor;
+                    }
+                style 
+            head
+        </pre>
+    </code>
+    <h1>Texto grande e pequeno</h1>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <h1>Texto deletado</h1>
+    <p>Podemos marcar um texto como <del>excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h1>Texto inserido</h1>
+    <p>Podemos marcar um texto como <ins>inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. <br>ou voce pode <u>sublinhar</u> com a tag U (nao semantica)</p>
+    <h1>texto sobre escrito</h1>
+    <p>Para inserir coisas do tipo x<sup>2</sup>0+3</p>
+    <h1>Texto sub escrito</h1>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <h1><strong style="background-color: red;">feito por Thinathi</strong></h1>
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family:'android';
+    src: url(idroid.otf);
+}
+/*
+cores
+#c5ebd6
+#83e1ad
+#3ddc84
+#2fa866
+#1a5c37
+#063d1e
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Asap', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #F0EAC2;
+    text-align: justify;
+    margin: auto;
+}   
+header{
+    font-family: 'Bebas Neue', sans-serif;
+
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+menu{
+    background-color: #063d1e;
+    padding: 1px;
+    margin: 0px;
+
+}
+nav{
+    background-color: #063d1e;
+    width: 70%;
+    color: #83e1adaf;
+    
+}
+main{
+    background-color: white;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    padding: 20px;    
+}
+.android{
+    color: #063d1e;
+    font-family: 'android', sans-serif;
+    
+}
+strong{
+    color: #2fa866;
+}
+h3{
+    background-image: linear-gradient(to right, #83E1AD, white);
+    font-family: 'android', sans-serif;
+    color: #1a5c37;
+}
+
+main a{
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2fa866;
+}
+
+.acabando{
+    background-color: #83E1AD;
+    padding: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    padding: 3px;
+}
+img{
+    width: 100%;
+}
+nav > a {
+    background-color: #063d1e;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right:10px;
+    padding: 1px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: #3ddc84;
+    color: #1a5c37;
+}
+main p{
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 220%;
+}
+main a:hover{
+    text-decoration: underline;
+    color: #3b8f61;
+}
+main ul{
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+iframe{
+    background-color: #063d1e;
+    
+}
